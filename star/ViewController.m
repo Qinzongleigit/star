@@ -24,9 +24,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    SXStarView*starView=[[SXStarView alloc]init];
+    SXStarView*starView=[[SXStarView alloc] initWithFrame:CGRectMake(100, 100, 150, 30) andStarNum:4];
     
-    [starView initWithFrame:CGRectMake(100, 100, 100, 30) andStarNum:5];
+   
     [self.view addSubview:starView];
     
 }
